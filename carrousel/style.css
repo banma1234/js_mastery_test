@@ -1,0 +1,31 @@
+.container {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image_wrapper {
+  display: flex;
+  transform: translateX(0);
+  transition: all 0.2s;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+.button_layout {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-direction: row;
+  column-gap: 4rem;
+}
+
+button {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
